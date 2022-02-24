@@ -1,0 +1,205 @@
+html, body {margin: 0; padding: 0; font-family: sans-serif; scroll-behavior: smooth;}
+header{
+	background-color: #b0f;
+	background-image: url('img/tetes.png');
+	height: 100vh;
+	width: 100%;
+}
+h1{
+	text-align: center;
+	margin: auto;
+	position: relative;
+	top: 20%;
+	color: #fff;
+	font-family: 'Comfortaa', cursive;
+	font-size: 3em;
+}
+h2{
+	text-align: center;
+	margin: auto;
+	color: #eee;
+	font-family: 'Comfortaa', cursive;
+	position: relative;
+	top: 20%;
+}
+h3{
+	color: #b0f;
+	font-family: 'Comfortaa', cursive;
+	padding-left: 50px;
+}
+.readmore{
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	background-color: #fff;
+	width: 100%;
+	padding-top: 50px;
+	border-radius: 100px 100px 0 0;
+}
+.readmore a {
+	color: #b0f;
+	text-decoration: none;
+	border-radius: 100%; border: 1px solid #b0f; padding: 10px;
+}
+.readmore a:hover{
+	color: #505;
+	border: 1px solid #505;
+}
+section{
+	background-color: #fff;
+}
+.zoom {
+	background-color: #eee;
+	height: 70vh;
+	margin: auto;
+	text-align: center;
+	padding: 5px;
+	background-image: url('gallery/firestar.png');
+	background-repeat: no-repeat;
+	background-size: auto 70vh;
+	background-position: center;
+}
+.zoom img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.gallery img:hover {
+  opacity: 1;
+}
+.gallery {
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+.gallery img {
+	height: 150px;
+	max-width: 150px;
+	object-fit: cover;
+	cursor: pointer;
+	opacity: 0.8;
+	object-position: center;
+	margin: 0 2px;
+}
+.about {
+	float: left;
+	height: 70vh;
+	width: auto;
+	padding: 0 10px;
+}
+#apropos {
+	min-height: 80vh;
+	background-image: url('img/about-fnd.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}
+.texte p{
+	padding: 0 50px;
+}
+.texte a{
+	text-align: center;
+	color: #b0f;
+	text-decoration: none;
+}
+.texte a:hover{
+	color: #505;
+	text-decoration: underline;
+}
+
+.texte table{
+	width: 100%;
+	height: 60vh;
+	text-align: center;
+}
+.texte table td{
+	width: 50%;
+	padding: 5px;
+}
+.texte table td a {
+	border: 2px solid #eee;
+	border-radius: 10px;
+	font-family: 'Rock Salt', cursive;
+	font-size: 2em;
+	text-align: center;
+    vertical-align: middle;
+	display: block;
+	height: 100%;
+	width: 100%;
+	color: #fff;
+	text-decoration: none;
+	/* Internet Explorer 10 */
+	display:-ms-flexbox;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+}
+#digi{
+	filter: grayscale(0.5);
+	background-image: url('img/digi.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#tradi{
+	filter: grayscale(0.5);
+	background-image: url('img/tradi.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#troid{
+	filter: grayscale(0.5);
+	background-image: url('img/troid.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#digi:hover, #tradi:hover, #troid:hover{
+	filter: grayscale(0);
+	color: #505;
+	text-decoration: none;
+}
+footer {
+	background-color: #b0f;
+	color: #fff;
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	margin: 0;
+}
+footer table{
+	width: 100%;
+	text-align: center;
+}
+footer table td{
+	width: 50%;
+}
+footer h3{
+	color: #fff;
+	padding-left: 0;
+}
+footer a{
+	font-weight: normal;
+	text-decoration: none;
+	color: #fff;
+}
+footer a:hover {
+	font-weight: 900;
+	text-decoration: underline;
+	color: #505;
+}
