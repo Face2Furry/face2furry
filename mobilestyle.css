@@ -54,10 +54,6 @@ section{
 	margin: auto;
 	text-align: center;
 	padding: 5px;
-	background-image: url('gallery/firestar.png');
-	background-repeat: no-repeat;
-	background-size: auto 70vh;
-	background-position: center;
 }
 .zoom img {
 	max-height: 100%;
@@ -88,10 +84,6 @@ section{
 }
 #apropos {
 	min-height: 80vh;
-	background-image: url('img/about-fnd.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center bottom;
 }
 .texte p{
 	padding: 0 50px;
@@ -119,7 +111,6 @@ section{
 	border: 2px solid #eee;
 	border-radius: 10px;
 	font-family: 'Rock Salt', cursive;
-	font-size: 2em;
 	text-align: center;
     vertical-align: middle;
 	display: block;
